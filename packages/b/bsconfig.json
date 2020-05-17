@@ -1,27 +1,19 @@
 {
-  "name": "reason-react-examples",
+  "name": "b",
   "reason": {
     "react-jsx": 3
   },
   "sources": {
-    "dir": "src",
-    "subdirs": true
+    "dir": "src"
   },
-  "bsc-flags": [
-    "-bs-super-errors",
-    "-bs-no-version-header"
-  ],
-  "package-specs": [
-    {
-      "module": "commonjs",
-      "in-source": true
-    }
-  ],
   "suffix": ".bs.js",
   "namespace": true,
   "bs-dependencies": [
     "reason-react",
     "a"
   ],
-  "refmt": 3
+  "warnings": {
+    "number": "A+101",
+    "error": true
+  }
 }

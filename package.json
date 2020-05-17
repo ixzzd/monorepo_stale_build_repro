@@ -4,11 +4,19 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "bootstrap": "yarn lerna bootstrap",
-    "postinstall": "yarn bootstrap"
+    "build": "bsb -make-world && fpack",
+    "clean": "bsb -clean-world",
+    "watch": "bsb -make-world && fpack; watchman-make -p '**/src/**/*.re*' '**/bsconfig.json' 'fastpack.json' --run 'bsb -make-world && fpack'",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "bs-platform": "^7.3.2",
+    "bs-webapi": "^0.15.9",
+    "fastpack": "^0.9.1",
     "lerna": "^3.20.2"
-  }
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }
