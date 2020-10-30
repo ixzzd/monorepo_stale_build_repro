@@ -12,8 +12,7 @@
   "devDependencies": {
     "bs-platform": "^7.3.2",
     "bs-webapi": "^0.15.9",
-    "fastpack": "^0.9.1",
-    "lerna": "^3.20.2"
+    "fastpack": "^0.9.1"
   },
   "private": true,
   "workspaces": [
