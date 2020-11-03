@@ -1,6 +1,0 @@
-{
-  "reason_language_server.autoRebuild": false,
-  "files.associations": {
-    "bsconfig.json": "jsonc"
-  }
-}

@@ -1,0 +1,19 @@
+{
+  "name": "b",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir": "src"
+  },
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react",
+    "a"
+  ],
+  "warnings": {
+    "number": "A+101",
+    "error": true
+  }
+}

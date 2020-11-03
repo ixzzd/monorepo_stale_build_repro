@@ -12,22 +12,10 @@ bs-webapi@^0.15.9:
   resolved "https://registry.yarnpkg.com/bs-webapi/-/bs-webapi-0.15.9.tgz#d1dcfbd40499a3b0914daacc4ceef47a0f3c906f"
   integrity sha512-bmzO6na2HmK01a34qB7afMwfVSrPxkP3EGzUslWObuxbHIlLC0PAMDu4lA8ZL5NasBUctlwnA1QZxox+1aNWWw==
 
-fastpack@^0.9.1:
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/fastpack/-/fastpack-0.9.1.tgz#791f5a30a707ae25567f1a9e47607c1c4d1bff0b"
-  integrity sha512-Pons5DJAfBCMkaFQ2Sx08PapmrTYmbgA+cMq5efjsJiOHQLwmRbiFN3oUcIH3lfDFfiHOhtKlrfl1C8+wjApHQ==
-  dependencies:
-    loader-runner "^3.0.0"
-
 "js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
-
-loader-runner@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-3.1.0.tgz#e9440e5875f2ad2f968489cd2c7b59a4f2847fcb"
-  integrity sha512-wE/bOCdTKMR2rm7Xxh+eirDOmN7Vx7hntWgiTayuFPtF8MgsFDo49SP8kkYz8IVlEBTOtR7P+XI7bE1xjo/IkA==
 
 loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
